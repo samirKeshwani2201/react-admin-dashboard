@@ -59,6 +59,7 @@ export default function SideBar() {
         "& .pro-menu-item.active": {
           color: "#6870fa !important",
         },
+        height: "130vh",
       }}
     >
       <ProSidebar collapsed={isCollapsed}>
@@ -99,12 +100,14 @@ export default function SideBar() {
                   alt="user"
                   width="100px"
                   height="80vh"
-                  src="../../assets/user.png"
+                  src="../../assets/student_lupxxg9u2x98.svg"
+                  // src="../../assets/user.png"
                   style={{
                     cursor: "pointer",
                     borderRadius: "50%",
                   }}
                 />
+
               </Box>
               <Box textAlign="center">
                 <Typography
@@ -115,7 +118,7 @@ export default function SideBar() {
                   color={colors.grey[100]}
                   fontWeight="bold"
                 >
-                  Samir K
+                  Samir Keshwani
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   Developer
@@ -238,4 +241,4 @@ export default function SideBar() {
       </ProSidebar>
     </Box>
   );
-} 
+}
